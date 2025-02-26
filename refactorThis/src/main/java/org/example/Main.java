@@ -1,4 +1,5 @@
-class A {
+package org.example;
+class A {//Porque no tiene nombres
     static String nombre = "SinNombre";
     static int edad = 0;
     static double salario = 0.0;
