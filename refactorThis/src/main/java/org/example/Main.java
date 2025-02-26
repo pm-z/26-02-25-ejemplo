@@ -1,5 +1,5 @@
 package org.example;
-class A {//Porque no tiene nombres
+class noName {//Porque no tiene nombres
     static String nombre = "SinNombre";
     static int edad = 0;
     static double salario = 0.0;
@@ -10,14 +10,14 @@ class A {//Porque no tiene nombres
         salario = s;
     }
 
-    static void mostrar() {
+    static void mostrar() {//Mostrar no name
         System.out.println("Nombre: " + nombre);
         System.out.println("Edad: " + edad);
         System.out.println("Salario: " + salario);
     }
 }
 
-class B {
+class Bono {
     void calcularBono() {
         double bono = 0;
         if (A.edad > 50) {
@@ -29,7 +29,7 @@ class B {
     }
 }
 
-class C {
+class Saludo {
     void imprimirSaludo() {
         if (A.edad < 18) {
             System.out.println("Hola, joven " + A.nombre);
