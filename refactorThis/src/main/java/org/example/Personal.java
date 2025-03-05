@@ -1,9 +1,9 @@
 package org.example;
 
 class Personal {
-    static String nombre = "SinNombre";
-    static int edad = 0;
-    static double salario = 0.0;
+    private String nombre = "SinNombre";
+    private int edad = 0;
+    private double salario = 0.0;
 
     static void datos(String n, int e, double s) {
         nombre = n;
