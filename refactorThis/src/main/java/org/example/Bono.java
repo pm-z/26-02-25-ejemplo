@@ -1,4 +1,5 @@
 package org.example;
+
 class Bono {
     void calcularBono() {
         double bono = 0;

@@ -1,4 +1,5 @@
 package org.example;
+
 class Saludo {
     void imprimirSaludo() {
         if (Empleado.edad < 18) {
