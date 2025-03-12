@@ -1,0 +1,5 @@
+Crear clase empleado
+	clase bono
+	clase main
+	clase saludo
+
